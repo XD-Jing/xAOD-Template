@@ -1,0 +1,28 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/MyxAODAnalysis.h"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis/Root/MyxAODAnalysis.cxx"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisLibCintDict.cxx",
+			"labels" : [ "MyAnalysis" ]
+		},
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisLibCintDict.cxx.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MyAnalysis" ],
+		"name" : "MyAnalysisLib"
+	}
+}

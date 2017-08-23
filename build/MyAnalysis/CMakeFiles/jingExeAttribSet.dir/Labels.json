@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/jingExeAttribSet"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/jingExeAttribSet.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MyAnalysis" ],
+		"name" : "jingExeAttribSet"
+	}
+}

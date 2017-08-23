@@ -1,0 +1,15 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis/util/jing.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MyAnalysis" ],
+		"name" : "jing"
+	}
+}

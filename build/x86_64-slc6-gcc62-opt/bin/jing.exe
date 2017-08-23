@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+echo "WARNING Please stop using jing.exe, and use jing instead"
+echo ""
+exec jing "$@"

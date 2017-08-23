@@ -1,0 +1,19 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/ATestRunExeAttribSet"
+		},
+		
+		{
+			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/ATestRunExeAttribSet.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "MyAnalysis" ],
+		"name" : "ATestRunExeAttribSet"
+	}
+}
