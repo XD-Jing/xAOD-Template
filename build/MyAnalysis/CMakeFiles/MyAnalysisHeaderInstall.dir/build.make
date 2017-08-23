@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source
+CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
+CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 
 # Utility rule file for MyAnalysisHeaderInstall.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
 include MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/progress.make
 
 x86_64-slc6-gcc62-opt/include/MyAnalysis:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../x86_64-slc6-gcc62-opt/include/MyAnalysis"
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E make_directory /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/include
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E create_symlink ../../../source/MyAnalysis/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/include/MyAnalysis
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../x86_64-slc6-gcc62-opt/include/MyAnalysis"
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E make_directory /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/include
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E create_symlink ../../../source/MyAnalysis/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/include/MyAnalysis
 
 MyAnalysisHeaderInstall: x86_64-slc6-gcc62-opt/include/MyAnalysis
 MyAnalysisHeaderInstall: MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build.make
@@ -69,10 +69,10 @@ MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build: MyAnalysisHeaderInstall
 .PHONY : MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build
 
 MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/clean:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/MyAnalysisHeaderInstall.dir/cmake_clean.cmake
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/MyAnalysisHeaderInstall.dir/cmake_clean.cmake
 .PHONY : MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/clean
 
 MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/depend
 

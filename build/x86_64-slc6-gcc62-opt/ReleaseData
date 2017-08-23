@@ -1,7 +1,7 @@
 [release_metadata]
 release:1.0.0
-nightly name:Unknown
+nightly name:master
 project name:UserAnalysis
-nightly release:Unknown
-date:2017-08-21T0952
+nightly release:f0bb01f
+date:2017-08-23T1642
 compiler:GNU-6.2.0

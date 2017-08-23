@@ -8,7 +8,7 @@
 set -e
 
 # Set up the environment:
-source /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/setup.sh || exit 1
+source /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/setup.sh || exit 1
 
 # Run the command:
 exec $* || exit 1

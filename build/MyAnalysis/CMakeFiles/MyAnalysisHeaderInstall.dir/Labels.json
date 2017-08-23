@@ -4,11 +4,11 @@
 	[
 		
 		{
-			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/include/MyAnalysis"
+			"file" : "/afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/include/MyAnalysis"
 		},
 		
 		{
-			"file" : "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/include/MyAnalysis.rule"
+			"file" : "/afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/include/MyAnalysis.rule"
 		}
 	],
 	"target" : 

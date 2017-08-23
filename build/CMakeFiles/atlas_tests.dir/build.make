@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source
+CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
+CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 
 # Utility rule file for atlas_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/atlas_tests.dir/clean:
 .PHONY : CMakeFiles/atlas_tests.dir/clean
 
 CMakeFiles/atlas_tests.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/atlas_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/atlas_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/atlas_tests.dir/depend
 

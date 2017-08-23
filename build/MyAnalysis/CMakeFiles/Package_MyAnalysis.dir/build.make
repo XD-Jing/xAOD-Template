@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source
+CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
+CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 
 # Utility rule file for Package_MyAnalysis.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
 include MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/progress.make
 
 MyAnalysis/CMakeFiles/Package_MyAnalysis:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E echo MyAnalysis:\ Package\ build\ succeeded
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E echo MyAnalysis:\ Package\ build\ succeeded
 
 Package_MyAnalysis: MyAnalysis/CMakeFiles/Package_MyAnalysis
 Package_MyAnalysis: MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build.make
@@ -67,10 +67,10 @@ MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build: Package_MyAnalysis
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build
 
 MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/clean:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/Package_MyAnalysis.dir/cmake_clean.cmake
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/Package_MyAnalysis.dir/cmake_clean.cmake
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/clean
 
 MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/depend
 

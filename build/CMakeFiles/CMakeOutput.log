@@ -1,4 +1,4 @@
-The system is: Linux - 2.6.32-696.6.3.el6.x86_64 - x86_64
+The system is: Linux - 2.6.32-696.3.2.el6.x86_64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/3.8.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/3.8.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/3.8.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/3.8.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_53dcf/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_53dcf.dir/build.make CMakeFiles/cmTC_53dcf.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_53dcf.dir/testCCompiler.c.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc    -o CMakeFiles/cmTC_53dcf.dir/testCCompiler.c.o   -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_53dcf
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53dcf.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_53dcf.dir/testCCompiler.c.o  -o cmTC_53dcf 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_19225/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_19225.dir/build.make CMakeFiles/cmTC_19225.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19225.dir/testCCompiler.c.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc    -o CMakeFiles/cmTC_19225.dir/testCCompiler.c.o   -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_19225
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19225.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_19225.dir/testCCompiler.c.o  -o cmTC_19225 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_157ec/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_157ec.dir/build.make CMakeFiles/cmTC_157ec.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc    -o CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o   -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_157ec
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_157ec.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc     -v -rdynamic CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o  -o cmTC_157ec 
+Run Build Command:"/usr/bin/gmake" "cmTC_04c2e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_04c2e.dir/build.make CMakeFiles/cmTC_04c2e.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc    -o CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o   -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_04c2e
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c2e.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc     -v -rdynamic CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o  -o cmTC_04c2e 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc
 COLLECT_LTO_WRAPPER=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/lto-wrapper
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.2.0 (GCC) 
 COMPILER_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/
 LIBRARY_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_157ec' '-mtune=generic' '-march=x86-64'
- /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_157ec /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_157ec' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_04c2e' '-mtune=generic' '-march=x86-64'
+ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_04c2e /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_04c2e' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_157ec/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_157ec.dir/build.make CMakeFiles/cmTC_157ec.dir/build]
-  ignore line: [gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc    -o CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o   -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_157ec]
-  ignore line: [/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_157ec.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc     -v -rdynamic CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o  -o cmTC_157ec ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_04c2e/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_04c2e.dir/build.make CMakeFiles/cmTC_04c2e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc    -o CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o   -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_04c2e]
+  ignore line: [/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04c2e.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc     -v -rdynamic CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o  -o cmTC_04c2e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/lto-wrapper]
@@ -86,8 +86,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_157ec' '-mtune=generic' '-march=x86-64']
-  link line: [ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_157ec /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_04c2e' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_04c2e /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o]
     arg [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -96,7 +96,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_157ec] ==> ignore
+    arg [cmTC_04c2e] ==> ignore
     arg [/usr/lib/../lib64/crt1.o] ==> ignore
     arg [/usr/lib/../lib64/crti.o] ==> ignore
     arg [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o] ==> ignore
@@ -106,7 +106,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../..] ==> dir [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../..]
-    arg [CMakeFiles/cmTC_157ec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_04c2e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -136,17 +136,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3f867/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_3f867.dir/build.make CMakeFiles/cmTC_3f867.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3f867.dir/feature_tests.c.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc   -std=c11 -o CMakeFiles/cmTC_3f867.dir/feature_tests.c.o   -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3f867
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f867.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_3f867.dir/feature_tests.c.o  -o cmTC_3f867 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_4e866/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4e866.dir/build.make CMakeFiles/cmTC_4e866.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e866.dir/feature_tests.c.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc   -std=c11 -o CMakeFiles/cmTC_4e866.dir/feature_tests.c.o   -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4e866
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e866.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_4e866.dir/feature_tests.c.o  -o cmTC_4e866 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,17 +156,17 @@ gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutori
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_25ac2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_25ac2.dir/build.make CMakeFiles/cmTC_25ac2.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_25ac2.dir/feature_tests.c.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc   -std=c99 -o CMakeFiles/cmTC_25ac2.dir/feature_tests.c.o   -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_25ac2
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25ac2.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_25ac2.dir/feature_tests.c.o  -o cmTC_25ac2 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_332c1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_332c1.dir/build.make CMakeFiles/cmTC_332c1.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_332c1.dir/feature_tests.c.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc   -std=c99 -o CMakeFiles/cmTC_332c1.dir/feature_tests.c.o   -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_332c1
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_332c1.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_332c1.dir/feature_tests.c.o  -o cmTC_332c1 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutori
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_ca77a/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_ca77a.dir/build.make CMakeFiles/cmTC_ca77a.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ca77a.dir/feature_tests.c.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc   -std=c90 -o CMakeFiles/cmTC_ca77a.dir/feature_tests.c.o   -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ca77a
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca77a.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_ca77a.dir/feature_tests.c.o  -o cmTC_ca77a 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_00522/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_00522.dir/build.make CMakeFiles/cmTC_00522.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00522.dir/feature_tests.c.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc   -std=c90 -o CMakeFiles/cmTC_00522.dir/feature_tests.c.o   -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00522
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00522.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/gcc      -rdynamic CMakeFiles/cmTC_00522.dir/feature_tests.c.o  -o cmTC_00522 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -194,30 +194,30 @@ gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutori
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_feae6/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_feae6.dir/build.make CMakeFiles/cmTC_feae6.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_feae6.dir/testCXXCompiler.cxx.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++     -o CMakeFiles/cmTC_feae6.dir/testCXXCompiler.cxx.o -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_feae6
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feae6.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_feae6.dir/testCXXCompiler.cxx.o  -o cmTC_feae6 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_c9b76/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c9b76.dir/build.make CMakeFiles/cmTC_c9b76.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9b76.dir/testCXXCompiler.cxx.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++     -o CMakeFiles/cmTC_c9b76.dir/testCXXCompiler.cxx.o -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_c9b76
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9b76.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_c9b76.dir/testCXXCompiler.cxx.o  -o cmTC_c9b76 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_e2e51/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_e2e51.dir/build.make CMakeFiles/cmTC_e2e51.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++     -o CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_e2e51
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2e51.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++      -v -rdynamic CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e2e51 
+Run Build Command:"/usr/bin/gmake" "cmTC_e0f41/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e0f41.dir/build.make CMakeFiles/cmTC_e0f41.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++     -o CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e0f41
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f41.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++      -v -rdynamic CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0f41 
 Using built-in specs.
 COLLECT_GCC=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++
 COLLECT_LTO_WRAPPER=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/lto-wrapper
@@ -227,24 +227,24 @@ Thread model: posix
 gcc version 6.2.0 (GCC) 
 COMPILER_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/
 LIBRARY_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e2e51' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e2e51 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e2e51' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e0f41' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e0f41 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e0f41' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_e2e51/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_e2e51.dir/build.make CMakeFiles/cmTC_e2e51.dir/build]
-  ignore line: [gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++     -o CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_e2e51]
-  ignore line: [/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2e51.dir/link.txt --verbose=1]
-  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++      -v -rdynamic CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e2e51 ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_e0f41/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_e0f41.dir/build.make CMakeFiles/cmTC_e0f41.dir/build]
+  ignore line: [gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++     -o CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e0f41]
+  ignore line: [/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f41.dir/link.txt --verbose=1]
+  ignore line: [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++      -v -rdynamic CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0f41 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/lto-wrapper]
@@ -254,8 +254,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e2e51' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e2e51 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e0f41' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e0f41 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../.. CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtend.o /usr/lib/../lib64/crtn.o]
     arg [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../libexec/gcc/x86_64-pc-linux-gnu/6.2.0/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -264,7 +264,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e2e51] ==> ignore
+    arg [cmTC_e0f41] ==> ignore
     arg [/usr/lib/../lib64/crt1.o] ==> ignore
     arg [/usr/lib/../lib64/crti.o] ==> ignore
     arg [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/crtbegin.o] ==> ignore
@@ -274,7 +274,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../..] ==> dir [/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/../lib/gcc/x86_64-pc-linux-gnu/6.2.0/../../..]
-    arg [CMakeFiles/cmTC_e2e51.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e0f41.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -302,17 +302,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_50700/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_50700.dir/build.make CMakeFiles/cmTC_50700.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_50700.dir/feature_tests.cxx.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++1z -o CMakeFiles/cmTC_50700.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_50700
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50700.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_50700.dir/feature_tests.cxx.o  -o cmTC_50700 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_9c631/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9c631.dir/build.make CMakeFiles/cmTC_9c631.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c631.dir/feature_tests.cxx.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++1z -o CMakeFiles/cmTC_9c631.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9c631
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c631.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_9c631.dir/feature_tests.cxx.o  -o cmTC_9c631 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -375,17 +375,17 @@ gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutori
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_af815/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_af815.dir/build.make CMakeFiles/cmTC_af815.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_af815.dir/feature_tests.cxx.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++14 -o CMakeFiles/cmTC_af815.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_af815
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af815.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_af815.dir/feature_tests.cxx.o  -o cmTC_af815 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_81866/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_81866.dir/build.make CMakeFiles/cmTC_81866.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81866.dir/feature_tests.cxx.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++14 -o CMakeFiles/cmTC_81866.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_81866
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81866.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_81866.dir/feature_tests.cxx.o  -o cmTC_81866 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -448,17 +448,17 @@ gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutori
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_168a3/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_168a3.dir/build.make CMakeFiles/cmTC_168a3.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_168a3.dir/feature_tests.cxx.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++11 -o CMakeFiles/cmTC_168a3.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_168a3
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_168a3.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_168a3.dir/feature_tests.cxx.o  -o cmTC_168a3 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_842f2/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_842f2.dir/build.make CMakeFiles/cmTC_842f2.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_842f2.dir/feature_tests.cxx.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++11 -o CMakeFiles/cmTC_842f2.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_842f2
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_842f2.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_842f2.dir/feature_tests.cxx.o  -o cmTC_842f2 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -521,17 +521,17 @@ gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutori
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+Change Dir: /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_fbcd9/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_fbcd9.dir/build.make CMakeFiles/cmTC_fbcd9.dir/build
-gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fbcd9.dir/feature_tests.cxx.o
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++98 -o CMakeFiles/cmTC_fbcd9.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_fbcd9
-/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbcd9.dir/link.txt --verbose=1
-/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_fbcd9.dir/feature_tests.cxx.o  -o cmTC_fbcd9 
-gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_ab987/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab987.dir/build.make CMakeFiles/cmTC_ab987.dir/build
+gmake[1]: Entering directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab987.dir/feature_tests.cxx.o
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++    -std=c++98 -o CMakeFiles/cmTC_ab987.dir/feature_tests.cxx.o -c /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ab987
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab987.dir/link.txt --verbose=1
+/cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/6.2.0/x86_64-slc6/bin/g++       -rdynamic CMakeFiles/cmTC_ab987.dir/feature_tests.cxx.o  -o cmTC_ab987 
+gmake[1]: Leaving directory `/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

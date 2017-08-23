@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/MyxAODAnalysis.h
+/afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis/MyAnalysis/MyxAODAnalysis.h
 EventLoop/Algorithm.h
 -
 
-/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis/util/jing.cxx
+/afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis/util/jing.cxx
 EventLoop/DirectDriver.h
 -
 EventLoop/Job.h

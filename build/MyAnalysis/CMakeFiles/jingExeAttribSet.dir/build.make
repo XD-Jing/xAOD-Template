@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source
+CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
+CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 
 # Utility rule file for jingExeAttribSet.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
 include MyAnalysis/CMakeFiles/jingExeAttribSet.dir/progress.make
 
 MyAnalysis/CMakeFiles/jingExeAttribSet:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && chmod 755 /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/x86_64-slc6-gcc62-opt/bin/jing.exe
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && chmod 755 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/bin/jing.exe
 
 jingExeAttribSet: MyAnalysis/CMakeFiles/jingExeAttribSet
 jingExeAttribSet: MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build.make
@@ -67,10 +67,10 @@ MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build: jingExeAttribSet
 .PHONY : MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build
 
 MyAnalysis/CMakeFiles/jingExeAttribSet.dir/clean:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/jingExeAttribSet.dir/cmake_clean.cmake
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/jingExeAttribSet.dir/cmake_clean.cmake
 .PHONY : MyAnalysis/CMakeFiles/jingExeAttribSet.dir/clean
 
 MyAnalysis/CMakeFiles/jingExeAttribSet.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/jingExeAttribSet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jingExeAttribSet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MyAnalysis/CMakeFiles/jingExeAttribSet.dir/depend
 

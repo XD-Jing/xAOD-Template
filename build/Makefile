@@ -48,10 +48,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source
+CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
+CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ install/strip/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Debug\" \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Debug\" \"Main\" \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -138,7 +138,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cpack --config ./CPackSourceConfig.cmake /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CPackSourceConfig.cmake
+	/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cpack --config ./CPackSourceConfig.cmake /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,9 +159,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

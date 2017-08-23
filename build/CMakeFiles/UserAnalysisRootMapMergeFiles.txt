@@ -1,1 +1,1 @@
-/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisLib.dsomap
+/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/MyAnalysisLib.dsomap

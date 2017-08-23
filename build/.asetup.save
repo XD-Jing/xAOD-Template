@@ -1,7 +1,7 @@
 [defaults]
 default32 = False
 slimpaths = False
-restore = True
+restore = False
 cmtusercontext = <external>
 usedpmtag = False
 listplatforms = False
@@ -45,7 +45,7 @@ versiondirectory = False
 exactmatch = False
 cmtbcast = False
 gcc40default = False
-shellfile = /tmp/asetup_2gJdFs.sh
+shellfile = /tmp/asetup_YROy9c.sh
 asioprio = False
 default32releases = slc5,slc4
 release = <none>

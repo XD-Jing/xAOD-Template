@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source
-BuildDirectory: /afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/build
+SourceDirectory: /afs/cern.ch/user/l/liji/private/xAOD-Template/source
+BuildDirectory: /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: lxplus038.cern.ch
+Site: lxplus090.cern.ch
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: x86_64-slc6-gcc62-opt
+BuildName: Linux-g++
 
 # Submission information
 IsCDash: 
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake" "/afs/cern.ch/user/l/liji/private/ROOTAnalysisTutorial/source"
+ConfigureCommand: "/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake" "/afs/cern.ch/user/l/liji/private/xAOD-Template/source"
 MakeCommand: /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
