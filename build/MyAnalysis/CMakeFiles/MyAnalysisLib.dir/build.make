@@ -130,6 +130,7 @@ x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: MyAnalysis/CMakeFiles/MyAnalysisL
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libEventLoop.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODEventInfo.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODMuon.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libTreePlayer.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libProofPlayer.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libgtest.so
@@ -142,14 +143,20 @@ x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/soft
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libNet.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libMathCore.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODEventFormat.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCaloEvent.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libCaloGeoHelpers.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODPrimitives.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODTracking.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODCore.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libRIO.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libHist.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libTree.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODBase.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libAthContainers.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libAthLinks.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libxAODRootAccessInterfaces.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libCore.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libPhysics.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libCxxUtils.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libboost_program_options.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libboost_regex.so
@@ -159,6 +166,7 @@ x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/soft
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libboost_system.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libboost_date_time.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libboost_atomic.so
+x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/lib/libMuonIdHelpersLib.so
 x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so: MyAnalysis/CMakeFiles/MyAnalysisLib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so"
 	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyAnalysisLib.dir/link.txt --verbose=$(VERBOSE)

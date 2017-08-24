@@ -1,5 +1,6 @@
 #include <AsgTools/MessageCheck.h>
 #include <xAODEventInfo/EventInfo.h>
+#include <xAODMuon/MuonContainer.h>
 #include <EventLoop/Job.h>
 #include <EventLoop/StatusCode.h>
 #include <EventLoop/Worker.h>
@@ -98,6 +99,7 @@ EL::StatusCode MyxAODAnalysis :: execute ()
     ANA_CHECK_SET_TYPE (EL::StatusCode);
 
     ANA_CHECK (exeEventInfo());
+    ANA_CHECK (exeMuon());
 
     //ANA_MSG_INFO ("in execute");
     return EL::StatusCode::SUCCESS;
@@ -116,6 +118,22 @@ EL::StatusCode MyxAODAnalysis :: exeEventInfo()
     ANA_MSG_INFO ("in execute, runNumber = " << eventInfo->runNumber() << ", eventNumber = " << eventInfo->eventNumber());
 
     return EL::StatusCode::SUCCESS;
+}
+
+
+EL::StatusCode MyxAODAnalysis :: exeMuon()
+{
+    ANA_CHECK_SET_TYPE (EL::StatusCode);
+
+    const xAOD::MuonContainer *muons = nullptr;
+    ANA_CHECK (evtStore()->retrieve (muons, "Muons"));
+
+    for ( auto muon : *muons) {
+        ANA_MSG_INFO ("execute(): original muon pt =" << ((muon)->pt() * 0.001) << " GeV");
+    }
+
+    return EL::StatusCode::SUCCESS;
+
 }
 
 EL::StatusCode MyxAODAnalysis :: postExecute ()

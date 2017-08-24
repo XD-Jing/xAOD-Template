@@ -12,7 +12,7 @@ atlas_add_library (MyAnalysisLib
     MyAnalysis/*.h MyAnalysis/*.ihh Root/*.cxx ${MyAnalysisDictSource}
     PUBLIC_HEADERS MyAnalysis
     INCLUDE_DIRS
-    LINK_LIBRARIES EventLoop xAODEventInfo
+    LINK_LIBRARIES EventLoop xAODEventInfo xAODMuon
     PRIVATE_LINK_LIBRARIES )
 
 # add the defined binaries:

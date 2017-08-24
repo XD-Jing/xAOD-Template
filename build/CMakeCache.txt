@@ -433,7 +433,7 @@ MEMORYCHECK_COMMAND:FILEPATH=/usr/bin/valgrind
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Dependencies for the target
-MyAnalysisLib_LIB_DEPENDS:STATIC=general;EventLoop;general;xAODEventInfo;general;dl;
+MyAnalysisLib_LIB_DEPENDS:STATIC=general;EventLoop;general;xAODEventInfo;general;xAODMuon;general;dl;
 
 //Path to a program.
 P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
