@@ -3,6 +3,7 @@
 #include <xAODMuon/MuonContainer.h>
 #include <xAODJet/JetContainer.h>
 #include <xAODCore/AuxContainerBase.h>
+#include <xAODCore/ShallowCopy.h>
 #include <EventLoop/Job.h>
 #include <EventLoop/StatusCode.h>
 #include <EventLoop/Worker.h>
@@ -102,6 +103,7 @@ EL::StatusCode MyxAODAnalysis :: execute ()
 
     ANA_CHECK (exeEventInfo());
     ANA_CHECK (exeMuon());
+    //ANA_CHECK (exeShallowCopy());
 
     //ANA_MSG_INFO ("in execute");
     return EL::StatusCode::SUCCESS;
@@ -165,6 +167,37 @@ EL::StatusCode MyxAODAnalysis :: exeDeepCopy()
 
     return EL::StatusCode::SUCCESS;
 }
+
+
+
+EL::StatusCode MyxAODAnalysis :: exeShallowCopy()
+{
+    ANA_CHECK_SET_TYPE (EL::StatusCode);
+
+    const xAOD::JetContainer *jets = nullptr;
+    ANA_CHECK (evtStore()->retrieve (jets, "AntiKt4EMTopoJets"));
+
+    auto shallowCopy = xAOD::shallowCopyContainer (*jets);
+    std::unique_ptr<xAOD::JetContainer> shallowJets (shallowCopy.first);
+    std::unique_ptr<xAOD::ShallowAuxContainer> shallowAux (shallowCopy.second);
+
+    double newPt;
+    for (auto jetSC : *shallowCopy.first) {
+        newPt = jetSC->pt() * (10);
+
+        xAOD::JetFourMom_t newp4 (newPt, jetSC->eta(), jetSC->phi(), jetSC->m());
+        jetSC->setJetP4 (newp4);
+    }
+
+    ANA_MSG_INFO ("shallow copy");
+
+    ANA_CHECK (evtStore()->record (shallowJets.release(), "AntiKt4EMTopoJets"));
+    ANA_CHECK (evtStore()->record (shallowAux.release(), "AntiKt4EMTopoJetsAux."));
+
+    return EL::StatusCode::SUCCESS;
+}
+
+
 
 EL::StatusCode MyxAODAnalysis :: postExecute ()
 {

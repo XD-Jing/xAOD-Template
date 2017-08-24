@@ -2038,6 +2038,7 @@ MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.o
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/AthToolSupport/AsgTools/AsgTools/SgTEvent.icc
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/AthToolSupport/AsgTools/AsgTools/StatusCode.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/CxxUtils/CxxUtils/hashtable.h
+ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/CxxUtils/CxxUtils/make_unique.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/CxxUtils/CxxUtils/override.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/CxxUtils/CxxUtils/unordered_map.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Control/CxxUtils/CxxUtils/unordered_set.h
@@ -2084,6 +2085,9 @@ MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.o
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/BaseInfo.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/CLASS_DEF.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/ClassID_traits.h
+ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/ShallowAuxContainer.h
+ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/ShallowAuxInfo.h
+ /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/ShallowCopy.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODCore/xAODCore/tools/AuxPersVector.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODEventFormat/xAODEventFormat/EventFormat.h
  /cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODEventFormat/xAODEventFormat/EventFormatElement.h

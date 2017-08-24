@@ -38,6 +38,7 @@ public:
     EL::StatusCode exeEventInfo();
     EL::StatusCode exeMuon();
     EL::StatusCode exeDeepCopy();
+    EL::StatusCode exeShallowCopy();
     // this is needed to distribute the algorithm to the workers
     ClassDef(MyxAODAnalysis, 1);
 };

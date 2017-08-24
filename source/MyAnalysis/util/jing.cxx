@@ -21,7 +21,8 @@ void ATestRun (const std::string& submitDir)
     // containing all the files, not the subdirectories.
 
     // use SampleHandler to scan all of the subdirectories of a directory for particular MC single file:
-    const char* inputFilePath = gSystem->ExpandPathName ("$ALRB_TutorialData/r9315/");
+    const char* inputFilePath = gSystem->ExpandPathName ("/afs/cern.ch/work/l/liji/aaa/");
+    //const char* inputFilePath = gSystem->ExpandPathName ("$ALRB_TutorialData/r9315/");
     SH::ScanDir().filePattern("AOD.11182705._000001.pool.root.1").scan(sh,inputFilePath);
 
 
