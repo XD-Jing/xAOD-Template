@@ -55,6 +55,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODBTagging"
   "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODPFlow"
   "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/Event/xAOD/xAODTrigger"
+  "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/PhysicsAnalysis/D3PDTools/EventLoopAlgs"
+  "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/PhysicsAnalysis/D3PDTools/MultiDraw"
   )
 
 # Targets to which this target links.

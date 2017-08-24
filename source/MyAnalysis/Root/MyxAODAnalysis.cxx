@@ -1,3 +1,4 @@
+#include <TFile.h>
 #include <AsgTools/MessageCheck.h>
 #include <xAODEventInfo/EventInfo.h>
 #include <xAODMuon/MuonContainer.h>
@@ -50,6 +51,13 @@ EL::StatusCode MyxAODAnalysis :: histInitialize ()
     // beginning on each worker node, e.g. create histograms and output
     // trees.  This method gets called before any input files are
     // connected.
+
+    // get the output file, create a new TTree and connect it to that output
+    // define what braches will go in that tree
+    TFile *outputFile = wk()->getOutputFile (outputName);
+    tree = new TTree ("tree", "tree");
+    tree->SetDirectory (outputFile);
+    tree->Branch ("EventNumber", &EventNumber);
     return EL::StatusCode::SUCCESS;
 }
 
@@ -106,6 +114,8 @@ EL::StatusCode MyxAODAnalysis :: execute ()
     //ANA_CHECK (exeShallowCopy());
 
     //ANA_MSG_INFO ("in execute");
+
+    tree->Fill();
     return EL::StatusCode::SUCCESS;
 }
 
@@ -117,6 +127,7 @@ EL::StatusCode MyxAODAnalysis :: exeEventInfo()
     // retrieve the eventInfo object from the event store
     const xAOD::EventInfo *eventInfo = nullptr;
     ANA_CHECK (evtStore()->retrieve (eventInfo, "EventInfo"));
+    EventNumber = eventInfo->eventNumber();
 
     // print out run and event number from retrieved object
     ANA_MSG_INFO ("in execute, runNumber = " << eventInfo->runNumber() << ", eventNumber = " << eventInfo->eventNumber());

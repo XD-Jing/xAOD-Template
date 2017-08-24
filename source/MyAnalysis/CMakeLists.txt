@@ -12,9 +12,9 @@ atlas_add_library (MyAnalysisLib
     MyAnalysis/*.h MyAnalysis/*.ihh Root/*.cxx ${MyAnalysisDictSource}
     PUBLIC_HEADERS MyAnalysis
     INCLUDE_DIRS
-    LINK_LIBRARIES EventLoop xAODEventInfo xAODMuon xAODJet xAODCore
+    LINK_LIBRARIES EventLoop xAODEventInfo xAODMuon xAODJet xAODCore EventLoopAlgs
     PRIVATE_LINK_LIBRARIES )
 
 # add the defined binaries:
 atlas_add_executable (jing util/jing.cxx
-    LINK_LIBRARIES MyAnalysisLib)
+    LINK_LIBRARIES MyAnalysisLib EventLoopAlgs EventLoop)

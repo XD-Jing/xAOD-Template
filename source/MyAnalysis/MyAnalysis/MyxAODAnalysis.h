@@ -2,6 +2,7 @@
 #define MyAnalysis_MyxAODAnalysis_H
 
 #include <EventLoop/Algorithm.h>
+#include <TTree.h>
 
 class MyxAODAnalysis : public EL::Algorithm
 {
@@ -19,6 +20,10 @@ public:
     // Tree *myTree; //!
     // TH1 *myHist; //!
 
+    // defining the output file name and tree that we will put in the output ntuple, also the one branch that will be in that tree 
+    std::string outputName;
+    TTree *tree; //!
+    int EventNumber; //!
 
 
     // this is a standard constructor

@@ -5,6 +5,8 @@
 #include <SampleHandler/ScanDir.h>
 #include <xAODRootAccess/Init.h>
 #include <AsgTools/MessageCheck.h>
+#include <EventLoopAlgs/NTupleSvc.h>
+#include <EventLoop/OutputStream.h>
 
 void ATestRun (const std::string& submitDir)
 {
@@ -40,6 +42,12 @@ void ATestRun (const std::string& submitDir)
     job.sampleHandler (sh); // use SampleHandler in this job
     job.options()->setDouble (EL::Job::optMaxEvents, 10); // for testing purposes, limit to run over the first 500 events only!
 
+    // define an output and an ntuple associated to that output
+    EL::OutputStream output  ("myOutput");
+    job.outputAdd (output);
+    EL::NTupleSvc *ntuple = new EL::NTupleSvc ("myOutput");
+    job.algsAdd (ntuple);
+
     // add our algorithm to the job
     MyxAODAnalysis *alg = new MyxAODAnalysis;
 
@@ -50,6 +58,8 @@ void ATestRun (const std::string& submitDir)
     // later on we'll add some configuration options for our algorithm that go here
 
     job.algsAdd (alg);
+
+    alg->outputName = "myOutput"; // give the name of the output to our algorithm
 
     // make the driver we want to use:
     // this one works by running the algorithm directly:
@@ -62,7 +72,7 @@ void ATestRun (const std::string& submitDir)
 
 int main (int argc, char* argv[])
 {
-  // set the return type and reporting category for ANA_CHECK
+    // set the return type and reporting category for ANA_CHECK
     using namespace asg::msgUserCode;
     ANA_CHECK_SET_TYPE (int);
 
