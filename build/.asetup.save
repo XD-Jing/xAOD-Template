@@ -1,7 +1,7 @@
 [defaults]
 default32 = False
 slimpaths = False
-restore = False
+restore = True
 cmtusercontext = <external>
 usedpmtag = False
 listplatforms = False

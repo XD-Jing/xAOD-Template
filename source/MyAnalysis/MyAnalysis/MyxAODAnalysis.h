@@ -35,6 +35,7 @@ public:
     virtual EL::StatusCode finalize ();
     virtual EL::StatusCode histFinalize ();
 
+    EL::StatusCode exeEventInfo();
     // this is needed to distribute the algorithm to the workers
     ClassDef(MyxAODAnalysis, 1);
 };

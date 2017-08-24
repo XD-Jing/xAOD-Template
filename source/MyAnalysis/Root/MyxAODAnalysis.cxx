@@ -97,6 +97,17 @@ EL::StatusCode MyxAODAnalysis :: execute ()
     // (add to top of each function once)
     ANA_CHECK_SET_TYPE (EL::StatusCode);
 
+    ANA_CHECK (exeEventInfo());
+
+    //ANA_MSG_INFO ("in execute");
+    return EL::StatusCode::SUCCESS;
+}
+
+
+EL::StatusCode MyxAODAnalysis :: exeEventInfo()
+{
+    ANA_CHECK_SET_TYPE (EL::StatusCode);
+
     // retrieve the eventInfo object from the event store
     const xAOD::EventInfo *eventInfo = nullptr;
     ANA_CHECK (evtStore()->retrieve (eventInfo, "EventInfo"));
@@ -104,11 +115,8 @@ EL::StatusCode MyxAODAnalysis :: execute ()
     // print out run and event number from retrieved object
     ANA_MSG_INFO ("in execute, runNumber = " << eventInfo->runNumber() << ", eventNumber = " << eventInfo->eventNumber());
 
-    //ANA_MSG_INFO ("in execute");
     return EL::StatusCode::SUCCESS;
 }
-
-
 
 EL::StatusCode MyxAODAnalysis :: postExecute ()
 {
