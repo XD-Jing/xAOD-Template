@@ -1,6 +1,8 @@
 #include <AsgTools/MessageCheck.h>
 #include <xAODEventInfo/EventInfo.h>
 #include <xAODMuon/MuonContainer.h>
+#include <xAODJet/JetContainer.h>
+#include <xAODCore/AuxContainerBase.h>
 #include <EventLoop/Job.h>
 #include <EventLoop/StatusCode.h>
 #include <EventLoop/Worker.h>
@@ -134,6 +136,34 @@ EL::StatusCode MyxAODAnalysis :: exeMuon()
 
     return EL::StatusCode::SUCCESS;
 
+}
+
+
+EL::StatusCode MyxAODAnalysis :: exeDeepCopy()
+{
+    // An xAOD container is always described by two objects. An "interface container" that you interact with, and an auxiliary store object that holds all the data.
+    ANA_CHECK_SET_TYPE (EL::StatusCode);
+
+    // Retrieve input jet container
+    xAOD::JetContainer *jets = nullptr;
+    ANA_CHECK (evtStore()->retrieve (jets, "AntiKt4EMTopoJets"));
+
+    auto goodJets = std::make_unique<xAOD::JetContainer>();
+    auto goodJetsAux = std::make_unique<xAOD::AuxContainerBase>();
+    goodJets->setStore (goodJetsAux.get());
+
+    for (auto jet: *jets){
+        if (jet->pt() < 50e03) continue;
+
+        xAOD::Jet *goodJet = new xAOD::Jet();
+        goodJets->push_back (goodJet);
+        *goodJet = *jet;
+    }
+
+    ANA_CHECK (evtStore()->record (goodJets.release(), "GoodJets"));
+    ANA_CHECK (evtStore()->record (goodJetsAux.release(), "GoodJetsAux."));
+
+    return EL::StatusCode::SUCCESS;
 }
 
 EL::StatusCode MyxAODAnalysis :: postExecute ()

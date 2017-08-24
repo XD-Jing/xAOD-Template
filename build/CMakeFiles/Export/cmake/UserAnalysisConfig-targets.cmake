@@ -63,7 +63,7 @@ add_library(UserAnalysis::MyAnalysisLib SHARED IMPORTED)
 
 set_target_properties(UserAnalysis::MyAnalysisLib PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "\$<TARGET_PROPERTY:UserAnalysis::MyAnalysisPkg,INTERFACE_INCLUDE_DIRECTORIES>"
-  INTERFACE_LINK_LIBRARIES "EventLoop;xAODEventInfo;xAODMuon"
+  INTERFACE_LINK_LIBRARIES "EventLoop;xAODEventInfo;xAODMuon;xAODJet;xAODCore"
 )
 
 # Create imported target UserAnalysis::jing
