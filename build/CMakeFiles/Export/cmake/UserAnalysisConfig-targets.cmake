@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget UserAnalysis::MyAnalysisPkg UserAnalysis::MyAnalysisPkgPrivate UserAnalysis::MyAnalysisLib UserAnalysis::jing)
+foreach(_expectedTarget UserAnalysis::MyAnalysisPkg UserAnalysis::MyAnalysisPkgPrivate UserAnalysis::MyAnalysisLib UserAnalysis::jing UserAnalysis::j.grid)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -68,6 +68,9 @@ set_target_properties(UserAnalysis::MyAnalysisLib PROPERTIES
 
 # Create imported target UserAnalysis::jing
 add_executable(UserAnalysis::jing IMPORTED)
+
+# Create imported target UserAnalysis::j.grid
+add_executable(UserAnalysis::j.grid IMPORTED)
 
 if(CMAKE_VERSION VERSION_LESS 3.0.0)
   message(FATAL_ERROR "This file relies on consumers using CMake 3.0.0 or greater.")

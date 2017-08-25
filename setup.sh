@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+
+export working=$PWD
+alias build="cmake --build ${working}/build"
+
 if [ ! -d build ];then
     mkdir build
 fi

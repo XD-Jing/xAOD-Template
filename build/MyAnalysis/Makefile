@@ -205,6 +205,21 @@ Package_MyAnalysis/fast:
 .PHONY : Package_MyAnalysis/fast
 
 # Convenience name for target.
+MyAnalysis/CMakeFiles/j.grid.dir/rule:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/j.grid.dir/rule
+.PHONY : MyAnalysis/CMakeFiles/j.grid.dir/rule
+
+# Convenience name for target.
+j.grid: MyAnalysis/CMakeFiles/j.grid.dir/rule
+
+.PHONY : j.grid
+
+# fast build rule for target.
+j.grid/fast:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/build
+.PHONY : j.grid/fast
+
+# Convenience name for target.
 MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule:
 	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
@@ -218,6 +233,21 @@ ATLAS_PACKAGES_TARGET: MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
 ATLAS_PACKAGES_TARGET/fast:
 	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build.make MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build
 .PHONY : ATLAS_PACKAGES_TARGET/fast
+
+# Convenience name for target.
+MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
+.PHONY : MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
+
+# Convenience name for target.
+j.gridExeAttribSet: MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
+
+.PHONY : j.gridExeAttribSet
+
+# fast build rule for target.
+j.gridExeAttribSet/fast:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build.make MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build
+.PHONY : j.gridExeAttribSet/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/rule:
@@ -348,6 +378,33 @@ Root/MyxAODAnalysis.cxx.s:
 	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.s
 .PHONY : Root/MyxAODAnalysis.cxx.s
 
+util/j-grid.o: util/j-grid.cxx.o
+
+.PHONY : util/j-grid.o
+
+# target to build an object file
+util/j-grid.cxx.o:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.o
+.PHONY : util/j-grid.cxx.o
+
+util/j-grid.i: util/j-grid.cxx.i
+
+.PHONY : util/j-grid.i
+
+# target to preprocess a source file
+util/j-grid.cxx.i:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.i
+.PHONY : util/j-grid.cxx.i
+
+util/j-grid.s: util/j-grid.cxx.s
+
+.PHONY : util/j-grid.s
+
+# target to generate assembly for a file
+util/j-grid.cxx.s:
+	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.s
+.PHONY : util/j-grid.cxx.s
+
 util/jing.o: util/jing.cxx.o
 
 .PHONY : util/jing.o
@@ -390,7 +447,9 @@ help:
 	@echo "... package_source"
 	@echo "... package"
 	@echo "... Package_MyAnalysis"
+	@echo "... j.grid"
 	@echo "... ATLAS_PACKAGES_TARGET"
+	@echo "... j.gridExeAttribSet"
 	@echo "... Package_MyAnalysis_tests"
 	@echo "... MyAnalysisHeaderInstall"
 	@echo "... MyAnalysisLib"
@@ -403,6 +462,9 @@ help:
 	@echo "... Root/MyxAODAnalysis.o"
 	@echo "... Root/MyxAODAnalysis.i"
 	@echo "... Root/MyxAODAnalysis.s"
+	@echo "... util/j-grid.o"
+	@echo "... util/j-grid.i"
+	@echo "... util/j-grid.s"
 	@echo "... util/jing.o"
 	@echo "... util/jing.i"
 	@echo "... util/jing.s"

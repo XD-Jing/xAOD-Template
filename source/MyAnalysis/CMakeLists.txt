@@ -18,3 +18,6 @@ atlas_add_library (MyAnalysisLib
 # add the defined binaries:
 atlas_add_executable (jing util/jing.cxx
     LINK_LIBRARIES MyAnalysisLib EventLoopAlgs EventLoop)
+
+atlas_add_executable (j.grid util/j-grid.cxx
+    LINK_LIBRARIES MyAnalysisLib EventLoopAlgs EventLoop EventLoopGrid)

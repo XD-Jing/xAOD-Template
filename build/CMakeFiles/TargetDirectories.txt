@@ -46,7 +46,9 @@
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/package_source.dir
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/package.dir
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/Package_MyAnalysis.dir
+/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/j.grid.dir
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir
+/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir
 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/MyAnalysisLib.dir

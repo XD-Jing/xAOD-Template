@@ -593,6 +593,19 @@ Package_MyAnalysis/fast:
 .PHONY : Package_MyAnalysis/fast
 
 #=============================================================================
+# Target rules for targets named j.grid
+
+# Build rule for target.
+j.grid: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 j.grid
+.PHONY : j.grid
+
+# fast build rule for target.
+j.grid/fast:
+	$(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/build
+.PHONY : j.grid/fast
+
+#=============================================================================
 # Target rules for targets named ATLAS_PACKAGES_TARGET
 
 # Build rule for target.
@@ -604,6 +617,19 @@ ATLAS_PACKAGES_TARGET: cmake_check_build_system
 ATLAS_PACKAGES_TARGET/fast:
 	$(MAKE) -f MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build.make MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build
 .PHONY : ATLAS_PACKAGES_TARGET/fast
+
+#=============================================================================
+# Target rules for targets named j.gridExeAttribSet
+
+# Build rule for target.
+j.gridExeAttribSet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 j.gridExeAttribSet
+.PHONY : j.gridExeAttribSet
+
+# fast build rule for target.
+j.gridExeAttribSet/fast:
+	$(MAKE) -f MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build.make MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build
+.PHONY : j.gridExeAttribSet/fast
 
 #=============================================================================
 # Target rules for targets named Package_MyAnalysis_tests
@@ -716,7 +742,9 @@ help:
 	@echo "... ContinuousStart"
 	@echo "... ContinuousUpdate"
 	@echo "... Package_MyAnalysis"
+	@echo "... j.grid"
 	@echo "... ATLAS_PACKAGES_TARGET"
+	@echo "... j.gridExeAttribSet"
 	@echo "... Package_MyAnalysis_tests"
 	@echo "... MyAnalysisHeaderInstall"
 	@echo "... MyAnalysisLib"

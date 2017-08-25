@@ -292,7 +292,7 @@ if( UserAnalysis_FIND_COMPONENTS )
          "UserAnalysis - 1.0.0..." )
 
       # Targets to pull into the current project:
-      set( UserAnalysis_TARGET_NAMES MyAnalysisPkg;MyAnalysisPkgPrivate;MyAnalysisLib;jing )
+      set( UserAnalysis_TARGET_NAMES MyAnalysisPkg;MyAnalysisPkgPrivate;MyAnalysisLib;jing;j.grid )
 
       # Loop over the targets that this project has:
       foreach( _target ${UserAnalysis_TARGET_NAMES} )
