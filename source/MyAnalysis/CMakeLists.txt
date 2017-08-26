@@ -16,7 +16,7 @@ atlas_add_library (MyAnalysisLib
     PRIVATE_LINK_LIBRARIES )
 
 # add the defined binaries:
-atlas_add_executable (jing util/jing.cxx
+atlas_add_executable (j.local util/j-local.cxx
     LINK_LIBRARIES MyAnalysisLib EventLoopAlgs EventLoop)
 
 atlas_add_executable (j.grid util/j-grid.cxx
