@@ -1053,12 +1053,12 @@
 /InstallArea/x86_64-slc6-gcc62-opt/./env_setup.sh
 /InstallArea/x86_64-slc6-gcc62-opt/./README.txt
 /InstallArea/x86_64-slc6-gcc62-opt/./LICENSE.txt
+/InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/CMakeLists.txt
 /InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/MyAnalysis/MyxAODAnalysis.h
 /InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/Root/LinkDef.h
 /InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/Root/MyxAODAnalysis.cxx
 /InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/util/jing.cxx
 /InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/util/j-grid.cxx
-/InstallArea/x86_64-slc6-gcc62-opt/src/MyAnalysis/CMakeLists.txt
 /InstallArea/x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib_rdict.pcm
 /InstallArea/x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so.dbg
 /InstallArea/x86_64-slc6-gcc62-opt/lib/libMyAnalysisLib.so

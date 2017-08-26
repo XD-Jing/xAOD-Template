@@ -1,5 +1,5 @@
 # Target labels
  MyAnalysis
 # Source files and their labels
-/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jingExeAttribSet
-/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jingExeAttribSet.rule
+/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jingExeAttribSet
+/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jingExeAttribSet.rule

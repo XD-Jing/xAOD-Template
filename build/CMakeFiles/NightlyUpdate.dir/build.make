@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
+CMAKE_SOURCE_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
+CMAKE_BINARY_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build
 
 # Utility rule file for NightlyUpdate.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlyUpdate.dir/clean:
 .PHONY : CMakeFiles/NightlyUpdate.dir/clean
 
 CMakeFiles/NightlyUpdate.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/CMakeFiles/NightlyUpdate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyUpdate.dir/depend
 

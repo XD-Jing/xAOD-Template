@@ -48,10 +48,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
+CMAKE_SOURCE_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
+CMAKE_BINARY_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,7 +94,7 @@ install/strip/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Debug\" \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Debug\" \"Main\" \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -127,7 +127,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cpack --config ./CPackSourceConfig.cmake /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CPackSourceConfig.cmake
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cpack --config ./CPackSourceConfig.cmake /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cpack --config ./CPackConfig.cmake
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_progress_start /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/progress.marks
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles 0
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_progress_start /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/CMakeFiles /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/progress.marks
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/clean
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/preinstall
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/preinstall
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ Package_MyAnalysis: MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/rule
 
 # fast build rule for target.
 Package_MyAnalysis/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build.make MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build.make MyAnalysis/CMakeFiles/Package_MyAnalysis.dir/build
 .PHONY : Package_MyAnalysis/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/j.grid.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/j.grid.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/j.grid.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/j.grid.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ j.grid: MyAnalysis/CMakeFiles/j.grid.dir/rule
 
 # fast build rule for target.
 j.grid/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/build
 .PHONY : j.grid/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
 
 # Convenience name for target.
@@ -231,12 +231,12 @@ ATLAS_PACKAGES_TARGET: MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/rule
 
 # fast build rule for target.
 ATLAS_PACKAGES_TARGET/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build.make MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build.make MyAnalysis/CMakeFiles/ATLAS_PACKAGES_TARGET.dir/build
 .PHONY : ATLAS_PACKAGES_TARGET/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
 
 # Convenience name for target.
@@ -246,12 +246,12 @@ j.gridExeAttribSet: MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/rule
 
 # fast build rule for target.
 j.gridExeAttribSet/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build.make MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build.make MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build
 .PHONY : j.gridExeAttribSet/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ Package_MyAnalysis_tests: MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/rul
 
 # fast build rule for target.
 Package_MyAnalysis_tests/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/build.make MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/build.make MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/build
 .PHONY : Package_MyAnalysis_tests/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/rule
 
 # Convenience name for target.
@@ -276,12 +276,12 @@ MyAnalysisHeaderInstall: MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/rule
 
 # fast build rule for target.
 MyAnalysisHeaderInstall/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisHeaderInstall.dir/build
 .PHONY : MyAnalysisHeaderInstall/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/MyAnalysisLib.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/MyAnalysisLib.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/MyAnalysisLib.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/MyAnalysisLib.dir/rule
 
 # Convenience name for target.
@@ -291,12 +291,12 @@ MyAnalysisLib: MyAnalysis/CMakeFiles/MyAnalysisLib.dir/rule
 
 # fast build rule for target.
 MyAnalysisLib/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build
 .PHONY : MyAnalysisLib/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/jing.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/jing.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/jing.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/jing.dir/rule
 
 # Convenience name for target.
@@ -306,12 +306,12 @@ jing: MyAnalysis/CMakeFiles/jing.dir/rule
 
 # fast build rule for target.
 jing/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/build
 .PHONY : jing/fast
 
 # Convenience name for target.
 MyAnalysis/CMakeFiles/jingExeAttribSet.dir/rule:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/jingExeAttribSet.dir/rule
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f CMakeFiles/Makefile2 MyAnalysis/CMakeFiles/jingExeAttribSet.dir/rule
 .PHONY : MyAnalysis/CMakeFiles/jingExeAttribSet.dir/rule
 
 # Convenience name for target.
@@ -321,7 +321,7 @@ jingExeAttribSet: MyAnalysis/CMakeFiles/jingExeAttribSet.dir/rule
 
 # fast build rule for target.
 jingExeAttribSet/fast:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build.make MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build.make MyAnalysis/CMakeFiles/jingExeAttribSet.dir/build
 .PHONY : jingExeAttribSet/fast
 
 CMakeFiles/MyAnalysisLibCintDict.o: CMakeFiles/MyAnalysisLibCintDict.cxx.o
@@ -330,7 +330,7 @@ CMakeFiles/MyAnalysisLibCintDict.o: CMakeFiles/MyAnalysisLibCintDict.cxx.o
 
 # target to build an object file
 CMakeFiles/MyAnalysisLibCintDict.cxx.o:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/CMakeFiles/MyAnalysisLibCintDict.cxx.o
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/CMakeFiles/MyAnalysisLibCintDict.cxx.o
 .PHONY : CMakeFiles/MyAnalysisLibCintDict.cxx.o
 
 CMakeFiles/MyAnalysisLibCintDict.i: CMakeFiles/MyAnalysisLibCintDict.cxx.i
@@ -339,7 +339,7 @@ CMakeFiles/MyAnalysisLibCintDict.i: CMakeFiles/MyAnalysisLibCintDict.cxx.i
 
 # target to preprocess a source file
 CMakeFiles/MyAnalysisLibCintDict.cxx.i:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/CMakeFiles/MyAnalysisLibCintDict.cxx.i
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/CMakeFiles/MyAnalysisLibCintDict.cxx.i
 .PHONY : CMakeFiles/MyAnalysisLibCintDict.cxx.i
 
 CMakeFiles/MyAnalysisLibCintDict.s: CMakeFiles/MyAnalysisLibCintDict.cxx.s
@@ -348,7 +348,7 @@ CMakeFiles/MyAnalysisLibCintDict.s: CMakeFiles/MyAnalysisLibCintDict.cxx.s
 
 # target to generate assembly for a file
 CMakeFiles/MyAnalysisLibCintDict.cxx.s:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/CMakeFiles/MyAnalysisLibCintDict.cxx.s
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/CMakeFiles/MyAnalysisLibCintDict.cxx.s
 .PHONY : CMakeFiles/MyAnalysisLibCintDict.cxx.s
 
 Root/MyxAODAnalysis.o: Root/MyxAODAnalysis.cxx.o
@@ -357,7 +357,7 @@ Root/MyxAODAnalysis.o: Root/MyxAODAnalysis.cxx.o
 
 # target to build an object file
 Root/MyxAODAnalysis.cxx.o:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.o
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.o
 .PHONY : Root/MyxAODAnalysis.cxx.o
 
 Root/MyxAODAnalysis.i: Root/MyxAODAnalysis.cxx.i
@@ -366,7 +366,7 @@ Root/MyxAODAnalysis.i: Root/MyxAODAnalysis.cxx.i
 
 # target to preprocess a source file
 Root/MyxAODAnalysis.cxx.i:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.i
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.i
 .PHONY : Root/MyxAODAnalysis.cxx.i
 
 Root/MyxAODAnalysis.s: Root/MyxAODAnalysis.cxx.s
@@ -375,7 +375,7 @@ Root/MyxAODAnalysis.s: Root/MyxAODAnalysis.cxx.s
 
 # target to generate assembly for a file
 Root/MyxAODAnalysis.cxx.s:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.s
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/MyAnalysisLib.dir/build.make MyAnalysis/CMakeFiles/MyAnalysisLib.dir/Root/MyxAODAnalysis.cxx.s
 .PHONY : Root/MyxAODAnalysis.cxx.s
 
 util/j-grid.o: util/j-grid.cxx.o
@@ -384,7 +384,7 @@ util/j-grid.o: util/j-grid.cxx.o
 
 # target to build an object file
 util/j-grid.cxx.o:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.o
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.o
 .PHONY : util/j-grid.cxx.o
 
 util/j-grid.i: util/j-grid.cxx.i
@@ -393,7 +393,7 @@ util/j-grid.i: util/j-grid.cxx.i
 
 # target to preprocess a source file
 util/j-grid.cxx.i:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.i
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.i
 .PHONY : util/j-grid.cxx.i
 
 util/j-grid.s: util/j-grid.cxx.s
@@ -402,7 +402,7 @@ util/j-grid.s: util/j-grid.cxx.s
 
 # target to generate assembly for a file
 util/j-grid.cxx.s:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.s
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/j.grid.dir/build.make MyAnalysis/CMakeFiles/j.grid.dir/util/j-grid.cxx.s
 .PHONY : util/j-grid.cxx.s
 
 util/jing.o: util/jing.cxx.o
@@ -411,7 +411,7 @@ util/jing.o: util/jing.cxx.o
 
 # target to build an object file
 util/jing.cxx.o:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.o
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.o
 .PHONY : util/jing.cxx.o
 
 util/jing.i: util/jing.cxx.i
@@ -420,7 +420,7 @@ util/jing.i: util/jing.cxx.i
 
 # target to preprocess a source file
 util/jing.cxx.i:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.i
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.i
 .PHONY : util/jing.cxx.i
 
 util/jing.s: util/jing.cxx.s
@@ -429,7 +429,7 @@ util/jing.s: util/jing.cxx.s
 
 # target to generate assembly for a file
 util/jing.cxx.s:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.s
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(MAKE) -f MyAnalysis/CMakeFiles/jing.dir/build.make MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.s
 .PHONY : util/jing.cxx.s
 
 # Help Target
@@ -479,6 +479,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

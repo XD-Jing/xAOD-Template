@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
+CMAKE_SOURCE_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
+CMAKE_BINARY_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build
 
 # Utility rule file for Package_MyAnalysis_tests.
 
@@ -63,10 +63,10 @@ MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/build: Package_MyAnalysis_tes
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/build
 
 MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/clean:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/Package_MyAnalysis_tests.dir/cmake_clean.cmake
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/Package_MyAnalysis_tests.dir/cmake_clean.cmake
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/clean
 
 MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source/MyAnalysis /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MyAnalysis/CMakeFiles/Package_MyAnalysis_tests.dir/depend
 

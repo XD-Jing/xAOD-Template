@@ -10,7 +10,7 @@
 #include <SampleHandler/ToolsDiscovery.h>
 #include "EventLoopGrid/PrunDriver.h"
 
-void ATestRun (const std::string& submitDir)
+void ATestRun (const std::string& submitDir, const std::string& dataset)
 {
     // Set up the job for xAOD access:
     xAOD::Init().ignore();
@@ -25,7 +25,8 @@ void ATestRun (const std::string& submitDir)
     // containing all the files, not the subdirectories.
 
 
-    SH::scanRucio (sh, "data16_13TeV.periodAllYear.physics_Main.PhysCont.DAOD_ZMUMU.repro21_v01/");
+    //SH::scanRucio (sh, "data16_13TeV.periodAllYear.physics_Main.PhysCont.DAOD_ZMUMU.repro21_v01/");
+    SH::scanRucio (sh, dataset);
 
     // set the name of the tree in our files
     // in the xAOD the TTree containing the EDM containers is "CollectionTree"
@@ -42,9 +43,9 @@ void ATestRun (const std::string& submitDir)
     job.options()->setDouble (EL::Job::optMaxEvents, 10); // for testing purposes, limit to run over the first 500 events only!
 
     // define an output and an ntuple associated to that output
-    EL::OutputStream output  ("myOutput");
+    EL::OutputStream output  ("output");
     job.outputAdd (output);
-    EL::NTupleSvc *ntuple = new EL::NTupleSvc ("myOutput");
+    EL::NTupleSvc *ntuple = new EL::NTupleSvc ("output");
     job.algsAdd (ntuple);
 
     // add our algorithm to the job
@@ -58,7 +59,7 @@ void ATestRun (const std::string& submitDir)
 
     job.algsAdd (alg);
 
-    alg->outputName = "myOutput"; // give the name of the output to our algorithm
+    alg->outputName = "output"; // give the name of the output to our algorithm
 
     // make the driver we want to use:
     // this one works by running the algorithm directly:
@@ -78,8 +79,13 @@ int main (int argc, char* argv[])
 
     // Take the submit directory from the input if provided:
     std::string submitDir = "submitDir";
-    if( argc == 2 ) submitDir = argv[1];
-    if (argc > 2)
+    std::string dataset = "";
+    if( argc == 3 ) {
+        submitDir = argv[1];
+        dataset = argv[2];
+    }
+
+    if (argc > 3)
     {
         ANA_MSG_ERROR ("don't know what to do with extra arguments, aborting");
         return -1;
@@ -89,7 +95,7 @@ int main (int argc, char* argv[])
     ANA_CHECK (xAOD::Init());
 
     // call our actual job-submission code
-    ATestRun (submitDir);
+    ATestRun (submitDir, dataset);
 
     return 0;
 }

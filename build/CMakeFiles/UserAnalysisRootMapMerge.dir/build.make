@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
+CMAKE_SOURCE_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
+CMAKE_BINARY_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build
 
 # Utility rule file for UserAnalysisRootMapMerge.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 include CMakeFiles/UserAnalysisRootMapMerge.dir/progress.make
 
 CMakeFiles/UserAnalysisRootMapMerge: MyAnalysis/CMakeFiles/MyAnalysisLib.dsomap
-	/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E make_directory /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/lib
-	/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/cmake/modules/scripts/mergeFiles.sh /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/lib/UserAnalysis.rootmap /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/UserAnalysisRootMapMergeFiles.txt
+	/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake -E make_directory /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/lib
+	/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/cmake/modules/scripts/mergeFiles.sh /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/lib/UserAnalysis.rootmap /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/CMakeFiles/UserAnalysisRootMapMergeFiles.txt
 
 UserAnalysisRootMapMerge: CMakeFiles/UserAnalysisRootMapMerge
 UserAnalysisRootMapMerge: CMakeFiles/UserAnalysisRootMapMerge.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/UserAnalysisRootMapMerge.dir/clean:
 .PHONY : CMakeFiles/UserAnalysisRootMapMerge.dir/clean
 
 CMakeFiles/UserAnalysisRootMapMerge.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/CMakeFiles/UserAnalysisRootMapMerge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/CMakeFiles/UserAnalysisRootMapMerge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UserAnalysisRootMapMerge.dir/depend
 

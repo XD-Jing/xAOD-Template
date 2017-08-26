@@ -4,8 +4,8 @@
 #
 
 # Set some basic properties for the build:
-set( CTEST_SOURCE_DIRECTORY /afs/cern.ch/user/l/liji/private/xAOD-Template/source )
-set( CTEST_BINARY_DIRECTORY /afs/cern.ch/user/l/liji/private/xAOD-Template/build )
+set( CTEST_SOURCE_DIRECTORY /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source )
+set( CTEST_BINARY_DIRECTORY /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build )
 
 set( CTEST_CUSTOM_MAXIMUM_NUMBER_OF_ERRORS   1000000 )
 set( CTEST_CUSTOM_MAXIMUM_NUMBER_OF_WARNINGS 1000000 )
@@ -21,12 +21,12 @@ set( CTEST_USE_LAUNCHERS 1 )
 set( CTEST_CMAKE_GENERATOR "Unix Makefiles" )
 set( CTEST_BUILD_CONFIGURATION RelWithDebInfo )
 if( ${CTEST_CMAKE_GENERATOR} STREQUAL "Unix Makefiles" )
-   set( CTEST_BUILD_FLAGS -j8 )
+   set( CTEST_BUILD_FLAGS -j20 )
 endif()
 
 # Identify the build:
 set( CTEST_BUILD_NAME x86_64-slc6-gcc62-opt )
-set( CTEST_SITE lxplus090.cern.ch )
+set( CTEST_SITE lxslc604.ihep.ac.cn )
 
 # Start a nightly build:
 message( "Starting nightly build for project UserAnalysis..." )
@@ -97,7 +97,7 @@ endif()
 # Run all the tests in one go:
 message( "Running the tests of all the packages..." )
 ctest_test( BUILD ${CTEST_BINARY_DIRECTORY}
-   PARALLEL_LEVEL 8 )
+   PARALLEL_LEVEL 20 )
 
 # Make a copy of the test file produced:
 message( "Making a copy of the full test log..." )

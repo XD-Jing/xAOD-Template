@@ -43,10 +43,10 @@ RM = /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_6
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/source
+CMAKE_SOURCE_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
+CMAKE_BINARY_DIR = /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build
 
 # Utility rule file for j.gridExeAttribSet.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /afs/cern.ch/user/l/liji/private/xAOD-Template/build
 include MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/progress.make
 
 MyAnalysis/CMakeFiles/j.gridExeAttribSet:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && chmod 755 /afs/cern.ch/user/l/liji/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/bin/j.grid.exe
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis && chmod 755 /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/x86_64-slc6-gcc62-opt/bin/j.grid.exe
 
 j.gridExeAttribSet: MyAnalysis/CMakeFiles/j.gridExeAttribSet
 j.gridExeAttribSet: MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build.make
@@ -67,10 +67,10 @@ MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build: j.gridExeAttribSet
 .PHONY : MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/build
 
 MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/clean:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/j.gridExeAttribSet.dir/cmake_clean.cmake
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis && $(CMAKE_COMMAND) -P CMakeFiles/j.gridExeAttribSet.dir/cmake_clean.cmake
 .PHONY : MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/clean
 
 MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/depend:
-	cd /afs/cern.ch/user/l/liji/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/cern.ch/user/l/liji/private/xAOD-Template/source /afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis /afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source/MyAnalysis /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MyAnalysis/CMakeFiles/j.gridExeAttribSet.dir/depend
 

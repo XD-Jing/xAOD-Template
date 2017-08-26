@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /afs/cern.ch/user/l/liji/private/xAOD-Template/source
-BuildDirectory: /afs/cern.ch/user/l/liji/private/xAOD-Template/build
+SourceDirectory: /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source
+BuildDirectory: /afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: lxplus090.cern.ch
+Site: lxslc604.ihep.ac.cn
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: x86_64-slc6-gcc62-opt
+BuildName: Linux-g++
 
 # Submission information
 IsCDash: 
@@ -27,13 +27,13 @@ DropSitePassword:
 DropSiteMode: 
 DropMethod: http
 TriggerSite: 
-ScpCommand: /usr/bin/scp
+ScpCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/scp
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake" "/afs/cern.ch/user/l/liji/private/xAOD-Template/source"
+ConfigureCommand: "/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake" "/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source"
 MakeCommand: /cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.8.1/Linux-x86_64/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -42,16 +42,16 @@ UpdateVersionOnly:
 
 # CVS options
 # Default is "-d -P -A"
-CVSCommand: /usr/bin/cvs
+CVSCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/cvs
 CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: /usr/bin/svn
+SVNCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/svn
 SVNOptions: 
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/bin/git
+GITCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -78,7 +78,7 @@ ValgrindCommand:
 ValgrindCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: /usr/bin/valgrind
+MemoryCheckCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/valgrind
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 
@@ -87,8 +87,8 @@ CoverageCommand: /cvmfs/atlas.cern.ch/repo/sw/software/21.2/sw/lcg/releases/gcc/
 CoverageExtraFlags: -l
 
 # Cluster commands
-SlurmBatchCommand: SLURM_SBATCH_COMMAND-NOTFOUND
-SlurmRunCommand: SLURM_SRUN_COMMAND-NOTFOUND
+SlurmBatchCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/sbatch
+SlurmRunCommand: /afs/ihep.ac.cn/soft/common/gcc/v01-17-05/mysql/usr/bin/srun
 
 # Testing options
 # TimeOut is the amount of time in seconds to wait for processes

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis/util/jing.cxx" "/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.o"
+  "/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source/MyAnalysis/util/jing.cxx" "/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/jing.dir/util/jing.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/afs/cern.ch/user/l/liji/private/xAOD-Template/source/MyAnalysis"
+  "/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/source/MyAnalysis"
   "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/RootCore/include"
   "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/src/PhysicsAnalysis/D3PDTools/EventLoop"
   "/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AnalysisBase/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/../../../../AnalysisBaseExternals/21.2.1/InstallArea/x86_64-slc6-gcc62-opt/include"
@@ -61,7 +61,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/afs/cern.ch/user/l/liji/private/xAOD-Template/build/MyAnalysis/CMakeFiles/MyAnalysisLib.dir/DependInfo.cmake"
+  "/afs/ihep.ac.cn/users/j/jingli/private/xAOD-Template/build/MyAnalysis/CMakeFiles/MyAnalysisLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
